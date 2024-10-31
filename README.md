@@ -9,8 +9,6 @@ O script em Python foi testado apenas com minha configuração de energia solar;
 
 Observe que as métricas são salvas no InfluxDB com os mesmos nomes de campo usados pela versão antiga da API Solarman, incluindo alguns erros de ortografia, como `useage` em vez de `usage`. Isto não é um bug.
 
-Talvez eu escreva uma nova versão simplificada do script, que armazene dados usando os mesmos nomes de campo da nova API Solarman, mas isso exigirá alguma migração de dados e mudanças nos dashboards do Grafana.
-
 ## Pré-requisitos
 
 1. Desenvolvido com Python 3.10, embora possa funcionar com versões >= 3.8.
