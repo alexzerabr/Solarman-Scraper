@@ -1,0 +1,15 @@
+# Necessário para o solarman-scraper, detalhes do solarman
+solarman:
+  login:
+    username: "meuusuario@exemplo.com" # Usuário solarman smart
+    password: "minhasenha" # Senha solarman smart
+    client_id: <seu client id do solarman> # customerservice@solarmanpv.com envie e-mail solicitando o client_id e secret_id, informe que é para uso pessoal.
+    client_secret: <seu client secret>
+  plant:
+    plant_id: 999999
+
+# Necessário para todos os scrapers gravarem dados
+influxdb:
+  url: "http://localhost:8086"
+  token: "meutokeninflux"
+  org: "organizaçãoinflux"
