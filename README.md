@@ -31,7 +31,7 @@ solarman:
     client_id: <seu client id do solarman> # customerservice@solarmanpv.com envie e-mail solicitando o client_id e secret_id, informe que é para uso pessoal.
     client_secret: <seu client secret>
   plant:
-    plant_id: <ID numérico da usina, encontrado na aba 'Plant Info' em https://home.solarman.cn/main.html>
+    plant_id: <ID numérico da planta, encontrado na aba 'Plant Info' em https://home.solarman.cn/main.html>
 
 influxdb:
   url: "http://localhost:8086"
